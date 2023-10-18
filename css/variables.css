@@ -1,0 +1,17 @@
+:root {
+	--font-size-base: 30px;
+
+	--font-size-small: 1rem;
+	--font-size-medium: 2rem;
+	--font-size-large: 3rem;
+
+	--color-primary: black;
+	--color-secondary: white;
+	--color-tertiary: #adff2f;
+
+	--color-accent-1: red;
+
+	--spacing-small: 0.5rem;
+	--spacing-medium: 1rem;
+	--spacing-large: 1.5rem;
+}

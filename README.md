@@ -1,0 +1,1 @@
+For practice purpouses, I am making a simple calculator.

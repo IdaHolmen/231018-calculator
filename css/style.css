@@ -1,0 +1,37 @@
+body {
+	background-color: var(--color-primary);
+	color: var(--color-tertiary);
+}
+
+button {
+	background-color: var(--color-tertiary);
+	padding: var(--spacing-small);
+	margin: var(--spacing-small);
+}
+
+.container {
+	font-family: 'Orbitron';
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.headline {
+	padding: var(--spacing-large);
+	font-size: var(--font-size-large);
+}
+
+.sum__element {
+	padding-top: 1rem;
+	font-size: var(--font-size-large);
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		margin-top: 100px;
+	} 
+}
+
+
