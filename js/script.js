@@ -20,4 +20,13 @@ addButton.addEventListener("click", ()=>{
 	}
 });
 
-// subtractButton.addEventListener("click", () =>)
+subtractButton.addEventListener("click", () => {
+	const value1 = parseFloat(number1.value);
+	const value2 = parseFloat(number2.value);
+
+	if (!isNaN(value1) && !isNaN(value2)) {
+		sumElement.textContent = value1 - value2;
+	} else {
+		sumElement.textContent = "Invalid output";
+	}
+});
