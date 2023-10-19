@@ -14,7 +14,8 @@ addButton.addEventListener("click", ()=>{
 	const value2 = parseFloat(number2.value);
 
 	if (!isNaN(value1) && !isNaN(value2)) {
-		sumElement.textContent = value1 + value2;
+		let result = value1 + value2;
+		sumElement.textContent = "Sum: " + result;
 	} else {
 		sumElement.textContent = "Invalid input";
 	}
@@ -25,7 +26,32 @@ subtractButton.addEventListener("click", () => {
 	const value2 = parseFloat(number2.value);
 
 	if (!isNaN(value1) && !isNaN(value2)) {
-		sumElement.textContent = value1 - value2;
+		let result = value1 - value2;
+		sumElement.textContent = "Sum: " + result;
+	} else {
+		sumElement.textContent = "Invalid output";
+	}
+});
+
+divideButton.addEventListener("click", () => {
+	const value1 = parseFloat(number1.value);
+	const value2 = parseFloat(number2.value);
+
+	if (!isNaN(value1) && !isNaN(value2)) {
+		let result = value1 / value2;
+		sumElement.textContent = "Sum: " + result;
+	} else {
+		sumElement.textContent = "Invalid output";
+	}
+});
+
+multiplyButton.addEventListener("click", () => {
+	const value1 = parseFloat(number1.value);
+	const value2 = parseFloat(number2.value);
+
+	if (!isNaN(value1) && !isNaN(value2)) {
+		let result = value1 * value2;
+		sumElement.textContent = "Sum: " + result;
 	} else {
 		sumElement.textContent = "Invalid output";
 	}
