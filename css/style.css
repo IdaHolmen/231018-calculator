@@ -3,6 +3,10 @@ body {
 	color: var(--color-tertiary);
 }
 
+input {
+	margin-top: 10px;
+}
+
 button {
 	background-color: var(--color-tertiary);
 	padding: var(--spacing-small);
