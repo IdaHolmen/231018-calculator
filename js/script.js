@@ -10,5 +10,6 @@ const multiplyButton = document.querySelector(".multiply-button");
 
 
 addButton.addEventListener("click", ()=>{
-
+	const value1 = parseFloat(number1.value);
+	const value2 = parseFloat(number2.value);
 });
